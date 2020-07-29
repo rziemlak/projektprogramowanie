@@ -1,0 +1,264 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.CodeCoverage/16.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.4.0"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.15.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "System.Windows.Forms/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/System.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/System.Windows.Forms.dll": {}
+        }
+      },
+      "explorer.NET/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/explorer.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/explorer.NET.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeCoverage/16.4.0": {
+      "sha512": "ka6NSnP6OQQuVt6T1hSrF/pROo45QkiXvEkySdVuzYvc9JCcvMPb9ZqA2RdsyxsZWp8UWHHpvFLXp2XhcMHQtQ==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.4.0",
+      "files": [
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.4.0.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.4.0": {
+      "sha512": "kNi4K3y0qZ3GZCh30ORK6K0pNCe8Wk+uLAI3JPm5NgxYuIoQO9Ohjj9oSZXqzk2MIKL/36lWf3oT7/CijXgAIg==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.4.0",
+      "files": [
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.4.0.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "HAhwFxr+Z+PJf8hXzc747NecvsDwEZ+3X8SA5+GIRM43GAy1Ap+TQPMHsWCnisfes5vPZ1/a2md/91u+shoTsQ==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.15.1": {
+      "sha512": "lqh2seT1A0tBOvi4pzKj80bqtckxCLdrvv8GJlagxWhlWTlc7T6MR7hCiH7rn/Eog3XMuae1pdPxFT2fS4kJdQ==",
+      "type": "package",
+      "path": "nunit3testadapter/3.15.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp1.0/NUnit3TestAdapter.props",
+        "build/netcoreapp1.0/nunit.engine.api.dll",
+        "build/netcoreapp1.0/nunit.engine.dll",
+        "build/netcoreapp2.0/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.0/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.0/NUnit3TestAdapter.props",
+        "build/netcoreapp2.0/nunit.engine.api.dll",
+        "build/netcoreapp2.0/nunit.engine.dll",
+        "nunit3testadapter.3.15.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "System.Windows.Forms/4.0.0": {
+      "sha512": "SpwsmXGtJZPj4RjJuO/l01uR44uu9nhZGz7JI9J8x078fdT6jhyRk1qPuppDotdpXlG7Jk6s/L0aFudDmmDzDA==",
+      "type": "package",
+      "path": "system.windows.forms/4.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/System.Windows.Forms.dll",
+        "system.windows.forms.4.0.0.nupkg.sha512",
+        "system.windows.forms.nuspec"
+      ]
+    },
+    "explorer.NET/1.0.0": {
+      "type": "project",
+      "path": "../explorer.NET/explorer.NET.csproj",
+      "msbuildProject": "../explorer.NET/explorer.NET.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Microsoft.NET.Test.Sdk >= 16.4.0",
+      "NUnit3TestAdapter >= 3.15.1",
+      "System.Windows.Forms >= 4.0.0",
+      "explorer.NET >= 1.0.0",
+      "nunit >= 3.12.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rafciu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rafciu\\Desktop\\sraczka\\explorer.NET\\NUnitTest\\NUnitTest.csproj",
+      "projectName": "NUnitTest",
+      "projectPath": "C:\\Users\\Rafciu\\Desktop\\sraczka\\explorer.NET\\NUnitTest\\NUnitTest.csproj",
+      "packagesPath": "C:\\Users\\Rafciu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rafciu\\Desktop\\sraczka\\explorer.NET\\NUnitTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rafciu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\Rafciu\\Desktop\\sraczka\\explorer.NET\\explorer.NET\\explorer.NET.csproj": {
+              "projectPath": "C:\\Users\\Rafciu\\Desktop\\sraczka\\explorer.NET\\explorer.NET\\explorer.NET.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "3.15.1"
+          },
+          "System.Windows.Forms": {
+            "target": "Package",
+            "version": "4.0.0.0"
+          },
+          "nunit": {
+            "target": "Package",
+            "version": "3.12.0"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "16.4.0"
+          }
+        }
+      }
+    }
+  }
+}

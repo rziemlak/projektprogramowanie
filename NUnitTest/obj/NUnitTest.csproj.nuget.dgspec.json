@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\NUnitTest\\NUnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\explorer.NET\\explorer.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\explorer.NET\\explorer.NET.csproj",
+        "projectName": "explorer.NET",
+        "projectPath": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\explorer.NET\\explorer.NET.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\NUnitTest\\NUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\NUnitTest\\NUnitTest.csproj",
+        "projectName": "NUnitTest",
+        "projectPath": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\NUnitTest\\NUnitTest.csproj",
+        "packagesPath": "C:\\Users\\Win\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\NUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\explorer.NET\\explorer.NET.csproj": {
+                "projectPath": "C:\\Users\\Win\\Desktop\\Projekt_programowanie\\explorer.NET\\explorer.NET\\explorer.NET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "System.Windows.Forms": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
